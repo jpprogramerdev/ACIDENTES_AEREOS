@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C504CB0C-DC79-7C56-897A-CA1917ED105A" containerWithKeyObject="E28D38DB-4BB5-27E0-9391-D178EF8A1789" localFKIndex="F56C2270-C172-021A-7B29-AEC57D7D4E84" name="FK_RLI_IVA">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<generatorID>E70B4B69-FCBC-E2F7-84E2-D8E588755E18</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<referredTableLongName>INVESTIGACOES_ACIDENTES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>01018CE8-C2B8-E3C0-F063-0A3EE1FF77DF</referredTableID>
+<keyObject>C8B33B69-5974-20F6-C780-5A125C57CD8C</keyObject>
+<referredKeyID>C8B33B69-5974-20F6-C780-5A125C57CD8C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IVA_Id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

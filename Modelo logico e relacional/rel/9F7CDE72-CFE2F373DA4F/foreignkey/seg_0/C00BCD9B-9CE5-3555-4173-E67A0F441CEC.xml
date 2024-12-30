@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C00BCD9B-9CE5-3555-4173-E67A0F441CEC" containerWithKeyObject="01018CE8-C2B8-E3C0-F063-0A3EE1FF77DF" localFKIndex="786CAB62-9C0E-30E6-BE45-2E1224C02AC2" name="FK_IVA_CDA">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<generatorID>7C6D1402-EC44-148D-A65C-9F40EBC6C12F</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<referredTableLongName>CONDICIONANTES_ACIDENTES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C90B3195-A585-C7E9-95CF-56C8E9BFE7F2</referredTableID>
+<keyObject>1FD579A9-F1D0-588E-E529-2E6D8B4DF699</keyObject>
+<referredKeyID>1FD579A9-F1D0-588E-E529-2E6D8B4DF699</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CDA_Id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

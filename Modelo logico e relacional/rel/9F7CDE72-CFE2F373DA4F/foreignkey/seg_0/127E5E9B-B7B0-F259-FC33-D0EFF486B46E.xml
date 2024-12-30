@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="127E5E9B-B7B0-F259-FC33-D0EFF486B46E" containerWithKeyObject="6043672F-333B-EA2A-C6FD-A44B48ED83E2" localFKIndex="991CA750-9AC5-3422-3308-F71ED821BD7C" name="FK_OAC_ARD">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<generatorID>53060BC7-FD95-797A-2D9E-E206F4068C95</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<referredTableLongName>AERODROMOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6317349D-AC06-53B7-56F0-06BFBF9A45E5</referredTableID>
+<keyObject>5B0F8009-C94F-AD28-D638-3A6454CCDFF9</keyObject>
+<referredKeyID>5B0F8009-C94F-AD28-D638-3A6454CCDFF9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ARD_Id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

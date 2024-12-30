@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK EST PAS" directorySegmentName="seg_0" id="ED5CEEF5-972F-8987-34B3-53EE7C6FFC48">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 11:36:35 UTC</createdTime>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<sourcePk>0BD808FE-72DA-DF5E-22EB-830BA508A40B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4350C43F-C638-B9CD-8BF3-A8E917B39843</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>597838D2-AFE3-D6C2-4B15-C7DBA525115E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

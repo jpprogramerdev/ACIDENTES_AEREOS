@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7C97B8D3-1E9C-540C-43EA-3E7846021D3E" name="FATORES ACIDENTES">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 18:36:03 UTC</createdTime>
+<comment><![CDATA[Tabela responsavel pelo armazenamento de dados referente aos fatores d e um acidente 
+Trigrama = FAC]]></comment>
+<commentInRDBMS><![CDATA[Tabela responsavel pelo armazenamento de dados referente aos fatores d e um acidente 
+Trigrama = FAC]]></commentInRDBMS>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="FAC Id" id="8C020BCB-B1F8-301A-BF2D-75304BFEC523">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 18:36:44 UTC</createdTime>
+<comment><![CDATA[PK que identifica o registro do fator do acidente]]></comment>
+<commentInRDBMS><![CDATA[PK que identifica o registro do fator do acidente]]></commentInRDBMS>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FAC Nome" id="22742C58-E910-2411-A792-268FFB069161">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 18:37:40 UTC</createdTime>
+<comment><![CDATA[Nome do fator do acidente]]></comment>
+<commentInRDBMS><![CDATA[Nome do fator do acidente]]></commentInRDBMS>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IVA Id" id="DDB145EB-2308-95BF-35A3-9ED8AADDE168">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-30 00:15:52 UTC</createdTime>
+<comment><![CDATA[PK que identifica o registro]]></comment>
+<generatorID>BD39C26B-4983-54CF-6808-7D7CB2CC4E55</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<referedAttribute>51B9421A-EC8E-F6EF-0CD3-D837AE4301FA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="571A2406-3853-31D1-2E54-4377B4BBDE74" name="PK_FAC">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 18:36:54 UTC</createdTime>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8C020BCB-B1F8-301A-BF2D-75304BFEC523</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

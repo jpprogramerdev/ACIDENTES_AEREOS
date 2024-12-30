@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DCC8BB87-FAB4-FC82-AE60-5A9DDEDF9535" containerWithKeyObject="6043672F-333B-EA2A-C6FD-A44B48ED83E2" localFKIndex="6FE2B00D-A88E-0E32-D8C0-A737DFBFB1EB" name="FK_OAC_NVA">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-28 12:03:29 UTC</createdTime>
+<generatorID>44BA5DA8-CFE4-46FF-4C5D-1E0276CECA3E</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<referredTableLongName>NIVEIS_DANOS_CIDENTES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>267B4E0E-E34D-5EF1-FB10-F41807388BF8</referredTableID>
+<keyObject>B562707C-1E89-F00E-2838-B99DCA95A10B</keyObject>
+<referredKeyID>B562707C-1E89-F00E-2838-B99DCA95A10B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>NVA_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

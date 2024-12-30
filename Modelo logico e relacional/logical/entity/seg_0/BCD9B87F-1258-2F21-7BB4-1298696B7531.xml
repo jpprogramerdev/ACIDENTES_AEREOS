@@ -1,0 +1,162 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BCD9B87F-1258-2F21-7BB4-1298696B7531" name="INVESTIGACOES ACIDENTES">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 19:17:20 UTC</createdTime>
+<comment><![CDATA[Tabela responsavel pelo armazenamento de dados referte as investigações das causas dos acidentes
+Trigrama = IVA]]></comment>
+<commentInRDBMS><![CDATA[Tabela responsavel pelo armazenamento de dados referte as investigações das causas dos acidentes
+Trigrama = IVA]]></commentInRDBMS>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IVA Id" id="51B9421A-EC8E-F6EF-0CD3-D837AE4301FA">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 19:17:32 UTC</createdTime>
+<comment><![CDATA[PK que identifica o registro]]></comment>
+<commentInRDBMS><![CDATA[PK que identifica o registro]]></commentInRDBMS>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IVA Status" id="653187AB-BF31-52C2-0363-AB18B4750FE0">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 19:21:35 UTC</createdTime>
+<comment><![CDATA[Status da investigação]]></comment>
+<commentInRDBMS><![CDATA[Status da investigação]]></commentInRDBMS>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OAC Id" id="3BD13833-4E03-68FD-29D1-598CFAFAB420">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 19:23:05 UTC</createdTime>
+<comment><![CDATA[Fk que faz referencia a ocorrencia]]></comment>
+<commentInRDBMS><![CDATA[Fk que faz referencia a ocorrencia]]></commentInRDBMS>
+<generatorID>E6E8A6C6-6349-A0E3-162C-CD10703CE1AB</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<referedAttribute>43B97031-DFC7-D094-A562-389A444F0011</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TPF Id" id="A2712EBA-97B0-5B19-74BA-99E8EFBE57B8">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 19:23:56 UTC</createdTime>
+<comment><![CDATA[Fk que faz referencia a tipos falhas]]></comment>
+<commentInRDBMS><![CDATA[Fk que faz referencia a tipos falhas]]></commentInRDBMS>
+<generatorID>B8B53652-615D-A157-BA4A-88FFC9D2A27E</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<referedAttribute>21E49ABC-E29D-691D-9473-B3CD759CCE3B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IVA AAS Id" id="7EC98C02-9955-2017-A86F-05B3261BCAF6">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 19:24:06 UTC</createdTime>
+<comment><![CDATA[Fk que faz referencia a aspectos acidentes]]></comment>
+<commentInRDBMS><![CDATA[Fk que faz referencia a aspectos acidentes]]></commentInRDBMS>
+<generatorID>1288FA47-F1DE-CA98-EDB6-5EC60175C361</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<referedAttribute>BE1C4357-E7B6-C72B-8119-20D68EB2650F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IVA CDA Id" id="021DB988-0B79-486B-2A5B-D742FEECFE71">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 19:24:13 UTC</createdTime>
+<comment><![CDATA[Fk que faz referencia a condicionantes acidentes]]></comment>
+<commentInRDBMS><![CDATA[Fk que faz referencia a condicionantes acidentes]]></commentInRDBMS>
+<generatorID>7C6D1402-EC44-148D-A65C-9F40EBC6C12F</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<referedAttribute>40541483-874F-F1C4-5F47-5AFE2AF6725F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IVA FAC Id" id="292B0D8B-718D-2AAC-58EA-2B1D73A28729">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-24 10:43:04 UTC</createdTime>
+<comment><![CDATA[Fk que faz referencia a fatores  acidentes]]></comment>
+<commentInRDBMS><![CDATA[Fk que faz referencia a fatores  acidentes]]></commentInRDBMS>
+<generatorID>BD39C26B-4983-54CF-6808-7D7CB2CC4E55</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<referedAttribute>8C020BCB-B1F8-301A-BF2D-75304BFEC523</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RLI Id" id="DBDE46F8-CFC5-07C9-583F-B04040A82A96">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-30 00:15:52 UTC</createdTime>
+<comment><![CDATA[PK que identifica o registro]]></comment>
+<generatorID>E70B4B69-FCBC-E2F7-84E2-D8E588755E18</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<referedAttribute>672CA397-5A8A-14DF-959D-395A5C90AF03</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6F38B884-30E5-61ED-50C0-06C8C4727B15" name="PK_IVA">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 19:21:22 UTC</createdTime>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>51B9421A-EC8E-F6EF-0CD3-D837AE4301FA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

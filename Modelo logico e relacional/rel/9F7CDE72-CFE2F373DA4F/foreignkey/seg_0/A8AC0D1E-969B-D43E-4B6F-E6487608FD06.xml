@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A8AC0D1E-969B-D43E-4B6F-E6487608FD06" containerWithKeyObject="6043672F-333B-EA2A-C6FD-A44B48ED83E2" localFKIndex="8B3E8623-8F1A-5AE2-555A-58DCC88EEA7D" name="FK_OAC_ARV">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<generatorID>E6FD1BCB-6734-2BBD-81C8-0A67A551F220</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<referredTableLongName>AERONAVES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>44D9DA5D-764A-1544-74B9-4C7D1E7C8275</referredTableID>
+<keyObject>25E1C23D-2534-B936-B5E2-A139E238F82D</keyObject>
+<referredKeyID>25E1C23D-2534-B936-B5E2-A139E238F82D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ARV_Id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

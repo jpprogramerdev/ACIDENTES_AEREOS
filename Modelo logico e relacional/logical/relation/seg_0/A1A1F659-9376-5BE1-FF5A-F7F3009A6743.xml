@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK ARV PAS" directorySegmentName="seg_0" id="A1A1F659-9376-5BE1-FF5A-F7F3009A6743">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 14:37:37 UTC</createdTime>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<sourcePk>0BD808FE-72DA-DF5E-22EB-830BA508A40B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4350C43F-C638-B9CD-8BF3-A8E917B39843</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>44F2267A-9D67-4A02-8122-8563AFEC8365</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B128083B-97FA-C96E-3127-D4E070770FED" name="MUNICIPIOS">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 11:42:07 UTC</createdTime>
+<comment><![CDATA[Tabela responsavel pelo armazenamento de dados refernte ao municipio
+Trigrama = MUC]]></comment>
+<commentInRDBMS><![CDATA[Tabela responsavel pelo armazenamento de dados refernte ao municipio
+Trigrama = MUC]]></commentInRDBMS>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="MUC Id" id="67935AFB-7AF6-BF27-0466-CC63F2EC6499">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 11:44:55 UTC</createdTime>
+<comment><![CDATA[Chave primaria responsavel por identificação do registro]]></comment>
+<commentInRDBMS><![CDATA[Chave primaria responsavel por identificação do registro]]></commentInRDBMS>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MUC Nome" id="9685A837-CB5A-A379-F71C-40644C747F7C">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 11:45:53 UTC</createdTime>
+<comment><![CDATA[Nome do municipio]]></comment>
+<commentInRDBMS><![CDATA[Nome do municipio]]></commentInRDBMS>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MUC EST Id" id="CDE1E581-67C0-94EC-A4D6-B546B098BB69">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 11:47:48 UTC</createdTime>
+<comment><![CDATA[Chave estrageira no qual faz referencia a PK de estados]]></comment>
+<commentInRDBMS><![CDATA[Chave estrageira no qual faz referencia a PK de estados]]></commentInRDBMS>
+<generatorID>262DB873-24BB-30CB-CE7C-08175CB720E5</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<referedAttribute>03672118-A6CB-A3D3-1B71-8A1AD4D18B81</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FD916059-75D0-A915-3200-5A96023FB3B4" name="PK_MUC">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 11:45:31 UTC</createdTime>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>67935AFB-7AF6-BF27-0466-CC63F2EC6499</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B5580090-2C51-0D82-F634-170A6780F635" containerWithKeyObject="6043672F-333B-EA2A-C6FD-A44B48ED83E2" localFKIndex="C9324C1D-289D-857C-B0BC-5B56053DE205" name="FK_OAC_CLA">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<generatorID>B1242F80-4F0D-98D9-D675-E5B4B4852B45</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<referredTableLongName>CLASSIFICACOES_ACIDENTES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5D545FFD-D232-FDDE-9219-1CE178E2AF8B</referredTableID>
+<keyObject>3E92BC79-01A2-4BB3-D0A0-AD248ACF867C</keyObject>
+<referredKeyID>3E92BC79-01A2-4BB3-D0A0-AD248ACF867C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CLA_Id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

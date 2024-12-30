@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2D8E660D-CA82-85C5-011F-DD442800CB74" name="ASPECTOS ACIDENTES">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 18:38:57 UTC</createdTime>
+<comment><![CDATA[Tabela responsavel pelo armazenamento de dados referente aos aspectos de um acidente
+Trigrama = AAS]]></comment>
+<commentInRDBMS><![CDATA[Tabela responsavel pelo armazenamento de dados referente aos aspectos de um acidente
+Trigrama = AAS]]></commentInRDBMS>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="AAS Id" id="BE1C4357-E7B6-C72B-8119-20D68EB2650F">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 18:40:11 UTC</createdTime>
+<comment><![CDATA[PK que identifica o registro de aspectos]]></comment>
+<commentInRDBMS><![CDATA[PK que identifica o registro de aspectos]]></commentInRDBMS>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AAS Aspecto" id="B39AF646-D002-4A5A-209A-1679D2DB75F9">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 18:41:03 UTC</createdTime>
+<comment><![CDATA[Aspecto que ocasionaram o fator do acidente]]></comment>
+<commentInRDBMS><![CDATA[Aspecto que ocasionaram o fator do acidente]]></commentInRDBMS>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120</dataTypeSize>
+<ownDataTypeParameters>120,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DCAA1FD1-190A-BF72-F438-3A3F66FA34C3" name="PK_AAS">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 18:40:25 UTC</createdTime>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BE1C4357-E7B6-C72B-8119-20D68EB2650F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK IVA CDA" directorySegmentName="seg_0" id="7C6D1402-EC44-148D-A65C-9F40EBC6C12F">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 19:24:09 UTC</createdTime>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<sourcePk>B59D5611-481A-8AB9-5678-722BFBBDE8E2</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CFCEE84A-9A0F-45C4-4B54-817443CBC977</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BCD9B87F-1258-2F21-7BB4-1298696B7531</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

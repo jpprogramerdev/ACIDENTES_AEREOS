@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ED6BC169-A618-8AC7-02D2-560EB4A7F8D0" name="FATORES_ACIDENTES">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[Tabela responsavel pelo armazenamento de dados referente aos fatores d e um acidente 
+Trigrama = FAC]]></comment>
+<commentInRDBMS><![CDATA[Tabela responsavel pelo armazenamento de dados referente aos fatores d e um acidente 
+Trigrama = FAC]]></commentInRDBMS>
+<generatorID>7C97B8D3-1E9C-540C-43EA-3E7846021D3E</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FAC_Id" id="E5106846-0CC7-E1F3-256A-0F3EB1566979">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[PK que identifica o registro do fator do acidente]]></comment>
+<commentInRDBMS><![CDATA[PK que identifica o registro do fator do acidente]]></commentInRDBMS>
+<generatorID>8C020BCB-B1F8-301A-BF2D-75304BFEC523</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FAC_Nome" id="2F87C573-A249-37C4-575C-C971728BD94A">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[Nome do fator do acidente]]></comment>
+<commentInRDBMS><![CDATA[Nome do fator do acidente]]></commentInRDBMS>
+<generatorID>22742C58-E910-2411-A792-268FFB069161</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0F1A719E-2B7A-9251-F86A-C72BDF157B1F" name="PK_FAC">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<generatorID>571A2406-3853-31D1-2E54-4377B4BBDE74</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5106846-0CC7-E1F3-256A-0F3EB1566979"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

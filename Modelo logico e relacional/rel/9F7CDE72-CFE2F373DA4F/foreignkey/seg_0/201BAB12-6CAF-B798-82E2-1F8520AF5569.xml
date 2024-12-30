@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="201BAB12-6CAF-B798-82E2-1F8520AF5569" containerWithKeyObject="01018CE8-C2B8-E3C0-F063-0A3EE1FF77DF" localFKIndex="10139D6F-C56E-B04A-B838-031C1CF79BB7" name="FK_IVA_FAC">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-28 12:03:29 UTC</createdTime>
+<generatorID>BD39C26B-4983-54CF-6808-7D7CB2CC4E55</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<referredTableLongName>FATORES_ACIDENTES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>ED6BC169-A618-8AC7-02D2-560EB4A7F8D0</referredTableID>
+<keyObject>0F1A719E-2B7A-9251-F86A-C72BDF157B1F</keyObject>
+<referredKeyID>0F1A719E-2B7A-9251-F86A-C72BDF157B1F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>FAC_Id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

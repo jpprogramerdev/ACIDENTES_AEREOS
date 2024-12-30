@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="73C62CAE-BD2F-BC5D-E2DA-7E144D018686" containerWithKeyObject="F3468B26-4B51-01C4-60A8-A9C12211FC28" localFKIndex="C919A21F-0E0F-7C86-F22F-222A66D53D78" name="FK_MUC_EST">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<generatorID>262DB873-24BB-30CB-CE7C-08175CB720E5</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<referredTableLongName>ESTADOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>13E61164-356E-4D8D-E6ED-049F31A43949</referredTableID>
+<keyObject>B0F27D51-4932-75EE-8B8C-52174EC615A1</keyObject>
+<referredKeyID>B0F27D51-4932-75EE-8B8C-52174EC615A1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>EST_Id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,159 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8253BBA4-5983-912A-4ED3-DB460EE200CF" name="MODELOS AERONAVES">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 12:31:38 UTC</createdTime>
+<comment><![CDATA[Tabela responsavel pelo armazenamento de dados referente o modelo  da aeronave de acordo com a fabricante
+Trigrama = MDA]]></comment>
+<commentInRDBMS><![CDATA[Tabela responsavel pelo armazenamento de dados referente o modelo  da aeronave de acordo com a fabricante
+Trigrama = MDA]]></commentInRDBMS>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="MDA Id" id="8E01506E-F185-F689-C0AC-D7FB7DCD39E5">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 12:31:49 UTC</createdTime>
+<comment><![CDATA[PK que identifica o modelo da aeronave]]></comment>
+<commentInRDBMS><![CDATA[PK que identifica o modelo da aeronave]]></commentInRDBMS>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MDA Modelo" id="39F362C8-D32B-8C22-0939-4776AB297F7F">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 12:32:15 UTC</createdTime>
+<comment><![CDATA[Identifica o modelo da aeronave]]></comment>
+<commentInRDBMS><![CDATA[Identifica o modelo da aeronave]]></commentInRDBMS>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MDA Assentos" id="D8683C0D-E86D-8C96-0CC8-AD152A96D548">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 14:24:24 UTC</createdTime>
+<comment><![CDATA[Quantidade de assentos]]></comment>
+<commentInRDBMS><![CDATA[Quantidade de assentos]]></commentInRDBMS>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MDA FBA Id" id="5804788D-028F-3220-95BC-FAB1FD2A6034">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 12:35:45 UTC</createdTime>
+<comment><![CDATA[FK que faz referencia ao fabricante]]></comment>
+<commentInRDBMS><![CDATA[FK que faz referencia ao fabricante]]></commentInRDBMS>
+<generatorID>DDAC6AF5-3336-ADFD-01FB-9195CF5E5F08</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<referedAttribute>EF88AF23-BB0F-2B3E-4543-2C4045EBC2D7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TPI Id" id="26F42EB0-14AF-7E00-B62E-9036B179B9A2">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 12:49:43 UTC</createdTime>
+<comment><![CDATA[FK que faz rerencia a tabela ICAO]]></comment>
+<commentInRDBMS><![CDATA[FK que faz rerencia a tabela ICAO]]></commentInRDBMS>
+<generatorID>8F32D19C-466A-E9E7-3B10-9BF8F3F6B595</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<referedAttribute>0E742FE0-3A14-C931-4E7C-B5A451EA2753</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PMD Id" id="7AC699D8-4A04-D2DB-BB91-293F64FCA477">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 13:10:39 UTC</createdTime>
+<comment><![CDATA[FK  que faz referencia  peso maximo de decolagem]]></comment>
+<commentInRDBMS><![CDATA[FK  que faz referencia  peso maximo de decolagem]]></commentInRDBMS>
+<generatorID>42C48ED5-E0DF-CB01-09A9-11DD948F2A40</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<referedAttribute>B010D68E-8D1B-65A6-D00C-87133620619B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TPA Id" id="67315DDF-BACC-6283-F3F3-AC6275C6DBB9">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 14:36:25 UTC</createdTime>
+<comment><![CDATA[FK que faz referencia ao tipo de aeronave]]></comment>
+<commentInRDBMS><![CDATA[FK que faz referencia ao tipo de aeronave]]></commentInRDBMS>
+<generatorID>F1779C9E-4646-6BE6-B57E-6D88D7639A06</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<referedAttribute>67267090-26B2-8ECD-92E2-00466759F4F2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ARV Id" id="0E9FEEDD-E5E2-C13F-FDC0-28EA8C27E119">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-30 00:15:52 UTC</createdTime>
+<comment><![CDATA[PK que identifica o registro de aeronaves]]></comment>
+<generatorID>8B9B1559-D42B-6034-F281-C1C57C943810</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<referedAttribute>2658EEBC-21AC-F646-3A3E-AAC17B232B7A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B622A845-0731-3790-76C9-034CEE0BA525" name="PK_MDA">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 12:32:01 UTC</createdTime>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8E01506E-F185-F689-C0AC-D7FB7DCD39E5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

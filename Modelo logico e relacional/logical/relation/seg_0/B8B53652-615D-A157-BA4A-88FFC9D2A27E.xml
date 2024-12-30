@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK IVA TPF" directorySegmentName="seg_0" id="B8B53652-615D-A157-BA4A-88FFC9D2A27E">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 19:23:48 UTC</createdTime>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<sourcePk>F138EF86-C5C5-28A5-4A7C-AC1EF5098768</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C3FB634E-F6AC-D7EA-2438-3C507DCB3DEF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BCD9B87F-1258-2F21-7BB4-1298696B7531</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

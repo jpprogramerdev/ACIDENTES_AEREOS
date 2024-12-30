@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="22E06ADE-A02D-64BF-FDB7-42F3F1A8DDDA" name="TIPOS_FALHAS">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[Tabela responsavel pelo armazenamento de dados referente ao tipo de falha 
+Trigrama = TPF]]></comment>
+<commentInRDBMS><![CDATA[Tabela responsavel pelo armazenamento de dados referente ao tipo de falha 
+Trigrama = TPF]]></commentInRDBMS>
+<generatorID>C3FB634E-F6AC-D7EA-2438-3C507DCB3DEF</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TPF_Id" id="67EDF642-1AB2-528A-E797-9E27613EB4E9">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[PK que identifica o registro de falhas]]></commentInRDBMS>
+<generatorID>21E49ABC-E29D-691D-9473-B3CD759CCE3B</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<sourceType>System</sourceType>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TPF_Tipo" id="16C6EEB1-D4F4-85D4-DB0B-211A430DD9E3">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[Indetifica o tipo de falha]]></commentInRDBMS>
+<generatorID>16755EAA-586D-5BA5-1179-4BCC4CDACF57</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0F496DA7-7CE1-9F70-8805-498C31D683E0" name="PK_TPF">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<generatorID>F138EF86-C5C5-28A5-4A7C-AC1EF5098768</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67EDF642-1AB2-528A-E797-9E27613EB4E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

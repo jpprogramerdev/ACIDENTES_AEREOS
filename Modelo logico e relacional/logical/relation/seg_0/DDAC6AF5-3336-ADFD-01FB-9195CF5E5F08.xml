@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK MDA FBA" directorySegmentName="seg_0" id="DDAC6AF5-3336-ADFD-01FB-9195CF5E5F08">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 12:35:18 UTC</createdTime>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<sourcePk>C517214C-6CA1-C569-6FA9-67D2C40C49DE</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FBC17A51-183F-CD8C-D3C2-840273FCE48B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8253BBA4-5983-912A-4ED3-DB460EE200CF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

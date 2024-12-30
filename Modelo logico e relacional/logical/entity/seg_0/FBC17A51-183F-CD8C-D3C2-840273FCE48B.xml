@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FBC17A51-183F-CD8C-D3C2-840273FCE48B" name="FABRICANTES AERONAVES">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 12:19:54 UTC</createdTime>
+<comment><![CDATA[Tabela responsavel pelo armazenamento de dados refernte da fabricante da aeronave
+Trigrama = FBA]]></comment>
+<commentInRDBMS><![CDATA[Tabela responsavel pelo armazenamento de dados refernte da fabricante da aeronave
+Trigrama = FBA]]></commentInRDBMS>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="FBA Id" id="EF88AF23-BB0F-2B3E-4543-2C4045EBC2D7">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 12:20:08 UTC</createdTime>
+<comment><![CDATA[Chave primaria que identifica o registro do fabricante]]></comment>
+<commentInRDBMS><![CDATA[Chave primaria que identifica o registro do fabricante]]></commentInRDBMS>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FBA Nome" id="56334310-A2D7-744D-FDFB-6EA63C1592F0">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 12:21:34 UTC</createdTime>
+<comment><![CDATA[Nome da fabricante da aeronave]]></comment>
+<commentInRDBMS><![CDATA[Nome da fabricante da aeronave]]></commentInRDBMS>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C517214C-6CA1-C569-6FA9-67D2C40C49DE" name="PK_FBA">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 12:20:23 UTC</createdTime>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EF88AF23-BB0F-2B3E-4543-2C4045EBC2D7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

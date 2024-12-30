@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK ARV MDA" directorySegmentName="seg_0" id="8B9B1559-D42B-6034-F281-C1C57C943810">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 14:29:26 UTC</createdTime>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<sourcePk>60A2819A-6232-E136-0983-8D6D18265E20</sourcePk>
+<targetPk>B622A845-0731-3790-76C9-034CEE0BA525</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>44F2267A-9D67-4A02-8122-8563AFEC8365</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>8253BBA4-5983-912A-4ED3-DB460EE200CF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

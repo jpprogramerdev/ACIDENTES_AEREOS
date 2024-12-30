@@ -1,0 +1,332 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6043672F-333B-EA2A-C6FD-A44B48ED83E2" name="OCORRENCIAS_AERONAVES">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[Tabela responsavel pelo armazenamento de dados referente aos acidentes
+Trigrama = OAC]]></comment>
+<commentInRDBMS><![CDATA[Tabela responsavel pelo armazenamento de dados referente aos acidentes
+Trigrama = OAC]]></commentInRDBMS>
+<generatorID>5A4D4CD8-D241-9922-9C06-F1E09D54D030</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OAC_Id" id="76F207D7-6F1F-3282-A7EB-0C35354EA829">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[PK que identifica o acidente]]></comment>
+<commentInRDBMS><![CDATA[PK que identifica o acidente]]></commentInRDBMS>
+<generatorID>43B97031-DFC7-D094-A562-389A444F0011</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OAC_Codigo" id="90A45204-575F-71D8-AF70-AE921598730F">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[Código da ocorrencia]]></comment>
+<commentInRDBMS><![CDATA[Código da ocorrencia]]></commentInRDBMS>
+<generatorID>8FBE5C99-A45E-22BE-D126-857E5C7D546A</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OAC_Latitude" id="3CCF20F9-92C6-E020-1D7C-61113B8E1E86">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[Latitude do acidente]]></comment>
+<commentInRDBMS><![CDATA[Latitude do acidente]]></commentInRDBMS>
+<generatorID>2EF6BB1D-CEA8-3CC6-027B-FF1CDF8E5BF5</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OAC_Longitude" id="E1ACA7A4-3117-BB39-8F5A-50412A0CFD53">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[Longitude  do acidente]]></comment>
+<commentInRDBMS><![CDATA[Longitude  do acidente]]></commentInRDBMS>
+<generatorID>6AA86222-3EF1-FC6A-056D-5718606F74D1</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OAC_Dia" id="80AC3F5D-147F-9C66-0DD1-FDFA2090C05D">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[Dia da ocorrencia]]></comment>
+<commentInRDBMS><![CDATA[Dia da ocorrencia]]></commentInRDBMS>
+<generatorID>AF7A5BCA-ADF4-1156-4BFB-AE351320BF63</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OAC_Horario" id="869CFC4D-6DF1-57F5-0989-C687F652D341">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[Horario que ocorreu o acidente]]></comment>
+<commentInRDBMS><![CDATA[Horario que ocorreu o acidente]]></commentInRDBMS>
+<generatorID>63CFCCB4-4D41-E30E-9C81-4F2D46363295</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OAC_Total_Aeronaves" id="F9810C19-DED8-ED84-46AE-2D9078BFD39E">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[Total de aeronaves envolvidas]]></comment>
+<commentInRDBMS><![CDATA[Total de aeronaves envolvidas]]></commentInRDBMS>
+<generatorID>30294652-23D2-43E7-F3A6-61068754CA27</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OAC_Saida_Pista" id="24AA0BB9-7252-0CDF-3D71-94EEF3487197">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[Se a aeronave deixa a pista durante o desembarque ou taxiamento]]></comment>
+<commentInRDBMS><![CDATA[Se a aeronave deixa a pista durante o desembarque ou taxiamento]]></commentInRDBMS>
+<generatorID>44B62D10-CAC3-4CC0-BACE-096D49AA9C68</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OAC_ARV_Id" id="0D3716C5-7786-5836-1160-9D2C91EBBA38">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[Fk que faz referencia a aeronave]]></comment>
+<commentInRDBMS><![CDATA[Fk que faz referencia a aeronave]]></commentInRDBMS>
+<generatorID>CB082EF1-2AA5-1F1E-67DB-B9A90B181926</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A8AC0D1E-969B-D43E-4B6F-E6487608FD06" referredColumn="5DD35381-EC76-6C32-EF01-5EF53B66642A"/>
+</associations>
+</Column>
+<Column name="OAC_MUC_Id" id="FD2577F3-C54C-8E72-08D2-910E4C15B880">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[Fk que faz referencia a municipios]]></comment>
+<commentInRDBMS><![CDATA[Fk que faz referencia a municipios]]></commentInRDBMS>
+<generatorID>5D7A9C66-8055-3722-5623-A510D13FE3BC</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A06CC9A2-E077-BDEC-6848-C72CD80C8D2D" referredColumn="C6413243-23BD-FE8A-4F76-2192A63D4367"/>
+</associations>
+</Column>
+<Column name="OAC_ARD_Id" id="B3AAEC34-DBA4-AD81-1AEA-66023B0024DF">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[Fk que faz referencia ao aerodromo]]></comment>
+<commentInRDBMS><![CDATA[Fk que faz referencia ao aerodromo]]></commentInRDBMS>
+<generatorID>908D3DEF-7580-BA45-D738-1B14C4D4583D</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="127E5E9B-B7B0-F259-FC33-D0EFF486B46E" referredColumn="8E5692CF-CAB0-6864-D699-D332CD10F483"/>
+</associations>
+</Column>
+<Column name="OAC_TPS_Id" id="241553B5-2EF1-355D-7BAA-C86E3F16AC41">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[Fk que faz referencia ao tipo de operação do voo]]></comment>
+<generatorID>7BDB6991-6F80-1022-770A-F0D5A97729B1</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2F24A6F1-B710-FD34-347E-495D2F4C76A5" referredColumn="E8BBD92E-D946-7A55-1F57-6659229A4FD4"/>
+</associations>
+</Column>
+<Column name="OAC_CAO_Id" id="DF58439D-F0D2-AD4F-A785-28EEB98B0080">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[Fk que faz referencia a categoria do acidente]]></comment>
+<commentInRDBMS><![CDATA[Fk que faz referencia a categoria do acidente]]></commentInRDBMS>
+<generatorID>ABE5012B-8D35-AF3B-99B3-010C73481DB9</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AC278C5D-7054-72C7-06F5-77EC55DDC1AB" referredColumn="B6CAF892-8B5C-BBEC-1B5B-16BC181077A3"/>
+</associations>
+</Column>
+<Column name="OAC_CLA_Id" id="5992977E-79F6-23CF-2E07-DE08D6F9E47E">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[Fk que faz referencia a categoria do Classificação do acidente]]></comment>
+<commentInRDBMS><![CDATA[Fk que faz referencia a categoria do Classificação do acidente]]></commentInRDBMS>
+<generatorID>AFEAC94B-46BF-5189-DBD2-BB74ADF3EFB9</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B5580090-2C51-0D82-F634-170A6780F635" referredColumn="4483635B-13E5-C299-2E4A-D33BA9E04381"/>
+</associations>
+</Column>
+<Column name="OAC_NVA_ID" id="BE207D2D-60B3-A091-F9F2-852D9A67D64D">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-28 12:03:29 UTC</createdTime>
+<comment><![CDATA[PK para Niveis Acidentes]]></comment>
+<generatorID>190B62FA-18DA-DE1C-9926-4E117CB4E8B5</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DCC8BB87-FAB4-FC82-AE60-5A9DDEDF9535" referredColumn="2668936E-7A28-C106-B12A-C26A149CF684"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6563346E-F269-4BE4-3214-6A565BF6AC96" name="PK_OAC">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<generatorID>875B5248-00ED-2F75-49F2-4AC018CEDB95</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76F207D7-6F1F-3282-A7EB-0C35354EA829"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8B3E8623-8F1A-5AE2-555A-58DCC88EEA7D" name="FK_OAC_ARV">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<generatorID>E6FD1BCB-6734-2BBD-81C8-0A67A551F220</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D3716C5-7786-5836-1160-9D2C91EBBA38"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BEB4762D-C859-28A9-B36D-2A9244A95B5D" name="FK_OAC_MUC">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<generatorID>FE53A1E5-4FA7-7174-F0D9-DF6890CCEFA9</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD2577F3-C54C-8E72-08D2-910E4C15B880"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="991CA750-9AC5-3422-3308-F71ED821BD7C" name="FK_OAC_ARD">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<generatorID>53060BC7-FD95-797A-2D9E-E206F4068C95</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3AAEC34-DBA4-AD81-1AEA-66023B0024DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="96B98E03-3E40-659A-8826-A372E35DBCA0" name="FK_OAC_TPS">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<generatorID>7AA2D017-47BA-896C-C484-A6B9EE763F18</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="241553B5-2EF1-355D-7BAA-C86E3F16AC41"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F22A1948-163E-C133-3CBB-FF92F3623347" name="FK_OAC_CAO">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<generatorID>18676E4B-4334-6A3B-1478-673DBE4BFF58</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF58439D-F0D2-AD4F-A785-28EEB98B0080"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C9324C1D-289D-857C-B0BC-5B56053DE205" name="FK_OAC_CLA">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<generatorID>B1242F80-4F0D-98D9-D675-E5B4B4852B45</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5992977E-79F6-23CF-2E07-DE08D6F9E47E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6FE2B00D-A88E-0E32-D8C0-A737DFBFB1EB" name="FK_OAC_NVA">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-28 12:03:29 UTC</createdTime>
+<generatorID>44BA5DA8-CFE4-46FF-4C5D-1E0276CECA3E</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE207D2D-60B3-A091-F9F2-852D9A67D64D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

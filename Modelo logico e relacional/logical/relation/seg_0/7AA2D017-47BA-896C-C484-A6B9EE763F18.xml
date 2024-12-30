@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK OAC TPS" directorySegmentName="seg_0" id="7AA2D017-47BA-896C-C484-A6B9EE763F18">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 19:12:38 UTC</createdTime>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<sourcePk>E19230DE-0AE7-1453-D11A-017198957ACB</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0BA2EF4A-8627-3E6F-DD08-98E820538ED0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5A4D4CD8-D241-9922-9C06-F1E09D54D030</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

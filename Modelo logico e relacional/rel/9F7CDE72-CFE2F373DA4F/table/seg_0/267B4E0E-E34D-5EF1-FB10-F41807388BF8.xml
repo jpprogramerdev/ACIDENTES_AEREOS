@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="267B4E0E-E34D-5EF1-FB10-F41807388BF8" name="NIVEIS_DANOS_CIDENTES">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-28 12:03:29 UTC</createdTime>
+<comment><![CDATA[Tabela responsável por armazenamento dos dados referente ao nivel de dano do acidente
+Trigrama = NVA]]></comment>
+<commentInRDBMS><![CDATA[Tabela responsável por armazenamento dos dados referente ao nivel de dano do acidente
+Trigrama = NVA]]></commentInRDBMS>
+<generatorID>8AF6D335-BFBE-49AA-4D86-C2B188AC3252</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NVA_ID" id="2668936E-7A28-C106-B12A-C26A149CF684">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-28 12:03:29 UTC</createdTime>
+<comment><![CDATA[PK para Niveis Acidentes]]></comment>
+<commentInRDBMS><![CDATA[PK para Niveis Acidentes]]></commentInRDBMS>
+<generatorID>0A368349-E430-E5B9-26E2-1891421AFB59</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NVA_NIVEL" id="9527AF53-B7AA-F751-B66E-2949653D304E">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-28 12:03:29 UTC</createdTime>
+<comment><![CDATA[Nível de estrago de um acidente]]></comment>
+<commentInRDBMS><![CDATA[Nível de estrago de um acidente]]></commentInRDBMS>
+<generatorID>708A0961-868F-F053-3635-2C6938CD3106</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B562707C-1E89-F00E-2838-B99DCA95A10B" name="PK_NVA">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-28 12:03:29 UTC</createdTime>
+<generatorID>3F7F4606-D3F1-05E5-0FF4-3814129ECF33</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2668936E-7A28-C106-B12A-C26A149CF684"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AC278C5D-7054-72C7-06F5-77EC55DDC1AB" containerWithKeyObject="6043672F-333B-EA2A-C6FD-A44B48ED83E2" localFKIndex="F22A1948-163E-C133-3CBB-FF92F3623347" name="FK_OAC_CAO">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<generatorID>18676E4B-4334-6A3B-1478-673DBE4BFF58</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<referredTableLongName>CATEGORIAS_OCORRENCIAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BE3B93D2-4717-ABCA-96EB-D0FEC6122056</referredTableID>
+<keyObject>3E0C2341-1695-160F-2CA7-ACCAA6050EF3</keyObject>
+<referredKeyID>3E0C2341-1695-160F-2CA7-ACCAA6050EF3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CAO_Id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

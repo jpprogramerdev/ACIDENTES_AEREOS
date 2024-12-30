@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0DAB1D3F-EAB8-48AF-5B9C-6B0CB730AFDE" name="TIPOS MOTORES">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 12:26:58 UTC</createdTime>
+<comment><![CDATA[Tabela responsavel pelo armazenamento de dados referente ao tipo de motor da aeronave
+Trigrama = TPM]]></comment>
+<commentInRDBMS><![CDATA[Tabela responsavel pelo armazenamento de dados referente ao tipo de motor da aeronave
+Trigrama = TPM]]></commentInRDBMS>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="TPM Id" id="9A458188-0381-4F58-928C-2A6488355F96">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 12:27:56 UTC</createdTime>
+<comment><![CDATA[PK que identifica o registro do tipo do motor]]></comment>
+<commentInRDBMS><![CDATA[PK que identifica o registro do tipo do motor]]></commentInRDBMS>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TPM Tipo" id="15FC6191-6342-5826-8B83-2E125D22E4A5">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 12:28:19 UTC</createdTime>
+<comment><![CDATA[Identifica qual o tipo do motor]]></comment>
+<commentInRDBMS><![CDATA[Identifica qual o tipo do motor]]></commentInRDBMS>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="88D1AC94-0ED9-71F9-024C-BB873D3A06C4" name="PK_TPM">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 12:28:05 UTC</createdTime>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9A458188-0381-4F58-928C-2A6488355F96</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

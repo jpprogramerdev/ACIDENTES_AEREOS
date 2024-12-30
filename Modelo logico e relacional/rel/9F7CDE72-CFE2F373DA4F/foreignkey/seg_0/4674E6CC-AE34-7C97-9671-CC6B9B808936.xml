@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4674E6CC-AE34-7C97-9671-CC6B9B808936" containerWithKeyObject="0D2851D2-8863-830C-89C9-FCB42A104EDB" localFKIndex="A2025E6C-0A87-A725-C544-23CFD3083CC0" name="FK_MDA_FBA">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<generatorID>DDAC6AF5-3336-ADFD-01FB-9195CF5E5F08</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<referredTableLongName>FABRICANTES_AERONAVES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C6AD88DA-159D-0A2E-7843-39892EC1B307</referredTableID>
+<keyObject>3A7D60A6-A4F2-4F28-9C5E-4B8338667252</keyObject>
+<referredKeyID>3A7D60A6-A4F2-4F28-9C5E-4B8338667252</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>FBA_Id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

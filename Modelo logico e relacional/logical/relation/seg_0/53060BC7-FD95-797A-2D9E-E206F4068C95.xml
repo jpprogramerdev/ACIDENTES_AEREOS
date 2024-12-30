@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK OAC ARD" directorySegmentName="seg_0" id="53060BC7-FD95-797A-2D9E-E206F4068C95">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 19:10:59 UTC</createdTime>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<sourcePk>CEF0F5AE-7162-7B50-A614-C6822F8FF9AA</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>010740CA-FAD3-B95C-A9D8-0F2FFC896C36</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5A4D4CD8-D241-9922-9C06-F1E09D54D030</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

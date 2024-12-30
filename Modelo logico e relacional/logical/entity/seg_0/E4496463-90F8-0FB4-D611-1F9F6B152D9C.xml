@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E4496463-90F8-0FB4-D611-1F9F6B152D9C" name="RELATORIOS INVESTIGACOES">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 19:26:53 UTC</createdTime>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="RLI Id" id="672CA397-5A8A-14DF-959D-395A5C90AF03">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 19:27:53 UTC</createdTime>
+<comment><![CDATA[PK que identifica o registro]]></comment>
+<commentInRDBMS><![CDATA[PK que identifica o registro]]></commentInRDBMS>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RLI Numero" id="E70DA580-053D-5481-FFD2-62BFEC5CDD26">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 19:28:17 UTC</createdTime>
+<comment><![CDATA[Numero do relatório]]></comment>
+<commentInRDBMS><![CDATA[Numero do relatório]]></commentInRDBMS>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RLI Data Publicacao" id="F4EFFD0C-945B-9F37-DD72-99BE92EABC5D">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 19:29:12 UTC</createdTime>
+<comment><![CDATA[Data da publicação do relatório]]></comment>
+<commentInRDBMS><![CDATA[Data da publicação do relatório]]></commentInRDBMS>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RLI IVA Id" id="F30A4424-1127-2330-71F9-46ACA7286BF8">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 19:30:20 UTC</createdTime>
+<comment><![CDATA[PK que identifica o registro]]></comment>
+<generatorID>E70B4B69-FCBC-E2F7-84E2-D8E588755E18</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<referedAttribute>51B9421A-EC8E-F6EF-0CD3-D837AE4301FA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6949AEAE-3B5D-39E2-1FA4-C58E13FFF442" name="PK_RLI">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 19:28:04 UTC</createdTime>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>672CA397-5A8A-14DF-959D-395A5C90AF03</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

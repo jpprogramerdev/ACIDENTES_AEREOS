@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BE3B93D2-4717-ABCA-96EB-D0FEC6122056" name="CATEGORIAS_OCORRENCIAS">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[Tabela responsavel pelo armazenamento de dados referente a categoria do acidente
+Trigrama = CAO]]></comment>
+<generatorID>049F8CCB-2F6B-A029-F8FD-4C5C840E4295</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CAO_Id" id="B6CAF892-8B5C-BBEC-1B5B-16BC181077A3">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[PK que identifica o registro da categoria da ocorrencia]]></commentInRDBMS>
+<generatorID>B5DF15B3-4962-CDE6-FB43-CE9FBB508E2D</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAO_Cateogira" id="DBF5D604-FECB-3A69-70F1-D7A4E648CAD5">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[Categora do acidente]]></commentInRDBMS>
+<generatorID>533EB7ED-F05A-A1F0-A959-172317976C0F</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAO_Sigla" id="95E9ECBB-8C0F-548F-BF38-207FA1410ED3">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[Taxonomia/sigla para a identificação do tipo de acidente]]></commentInRDBMS>
+<generatorID>1A332472-1EE3-0979-8DF9-424461ED7E48</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3E0C2341-1695-160F-2CA7-ACCAA6050EF3" name="PK_CAO">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<generatorID>5CE44043-4CB5-69CA-803E-2FA9A0274D3D</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6CAF892-8B5C-BBEC-1B5B-16BC181077A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

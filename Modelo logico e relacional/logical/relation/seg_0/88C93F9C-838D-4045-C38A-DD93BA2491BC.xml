@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK ARV TPM" directorySegmentName="seg_0" id="88C93F9C-838D-4045-C38A-DD93BA2491BC">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 14:33:51 UTC</createdTime>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<sourcePk>88D1AC94-0ED9-71F9-024C-BB873D3A06C4</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0DAB1D3F-EAB8-48AF-5B9C-6B0CB730AFDE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>44F2267A-9D67-4A02-8122-8563AFEC8365</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

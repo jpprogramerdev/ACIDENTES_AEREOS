@@ -1,0 +1,183 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="44D9DA5D-764A-1544-74B9-4C7D1E7C8275" name="AERONAVES">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[Tabela responsavel pelo armazenamento de dados referente a aeronave
+Trigrama = ARV]]></comment>
+<commentInRDBMS><![CDATA[Tabela responsavel pelo armazenamento de dados referente a aeronave
+Trigrama = ARV]]></commentInRDBMS>
+<generatorID>44F2267A-9D67-4A02-8122-8563AFEC8365</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ARV_Id" id="5DD35381-EC76-6C32-EF01-5EF53B66642A">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[PK que identifica o registro de aeronaves]]></comment>
+<commentInRDBMS><![CDATA[PK que identifica o registro de aeronaves]]></commentInRDBMS>
+<generatorID>2658EEBC-21AC-F646-3A3E-AAC17B232B7A</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ARV_Matricula" id="F0ED4A72-D9D2-C033-2074-8108F73C6CFF">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[Matricula da aeronave, no qual não possui dependencia do modelo]]></comment>
+<commentInRDBMS><![CDATA[Matricula da aeronave, no qual não possui dependencia do modelo]]></commentInRDBMS>
+<generatorID>D116FF87-9839-A489-0EA5-CB9081B2B0B4</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ARV_Ano_Fabricacao" id="3A82EBDD-D5D2-4BC4-745F-A69E1EE87F07">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[Ano da fabricação do avião]]></comment>
+<commentInRDBMS><![CDATA[Ano da fabricação do avião]]></commentInRDBMS>
+<generatorID>5FA7EDD7-046B-BBBB-75C8-D4DE2BBCF1FA</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ARV_MDA_Id" id="B468C0AD-890B-F775-4AD8-BF612B153F3B">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[FK que faz rerencia ao modelo da aeronave]]></comment>
+<commentInRDBMS><![CDATA[FK que faz rerencia ao modelo da aeronave]]></commentInRDBMS>
+<generatorID>0AC3895F-3464-522D-007E-AAFD3423C01E</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="38C64E67-E2C5-790F-35DC-3DE1BA9E851C" referredColumn="7D58A81C-8257-B443-2D2E-B2080FFC6D34"/>
+</associations>
+</Column>
+<Column name="ARV_QTM_Id" id="0EADC574-AD90-90D7-7F43-622528FEA7A6">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[FK que faz referencia a quantidade de motores]]></comment>
+<commentInRDBMS><![CDATA[FK que faz referencia a quantidade de motores]]></commentInRDBMS>
+<generatorID>E72A60D8-8687-657E-85CD-C0BDDC6D83B7</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4C9F6965-0E1F-E47C-049B-C8A21ECDE55E" referredColumn="DA2C017C-FC78-2D42-2B95-82FFA0CE0FA2"/>
+</associations>
+</Column>
+<Column name="ARV_TPM_Id" id="9409B19D-9CC8-86DD-8725-0814F714C8C5">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[Fk que faz referencia ao tipo de motor]]></comment>
+<commentInRDBMS><![CDATA[Fk que faz referencia ao tipo de motor]]></commentInRDBMS>
+<generatorID>C445BF76-BB4A-0BB2-8EBE-690616C23B1B</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1210B6E2-5C5B-E2E4-3103-4B50D3AED334" referredColumn="391AC4E8-C645-E0BE-F3F6-30EA8DF0FE46"/>
+</associations>
+</Column>
+<Column name="ARV_PAS_Id" id="33B8AB91-9F71-7F35-79EB-7B8D094100B0">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[FK que faz referecnai ao pais de fabricação]]></comment>
+<commentInRDBMS><![CDATA[FK que faz referecnai ao pais de fabricação]]></commentInRDBMS>
+<generatorID>BA013C5F-C02E-8319-1D76-E3E9FBBBD6E5</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5CC0D7A7-23E1-ED35-737F-80642D206DA7" referredColumn="204CAC6B-6E36-B011-1A20-C3002E570529"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="25E1C23D-2534-B936-B5E2-A139E238F82D" name="PK_ARV">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<generatorID>60A2819A-6232-E136-0983-8D6D18265E20</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5DD35381-EC76-6C32-EF01-5EF53B66642A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="03A1C588-AAA1-0996-8496-63160672DF79" name="FK_ARV_MDA">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<generatorID>8B9B1559-D42B-6034-F281-C1C57C943810</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B468C0AD-890B-F775-4AD8-BF612B153F3B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3CCD96D1-DE5C-11DE-3D9C-7731E438D52A" name="FK_ARV_QTM">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<generatorID>54C0091F-404A-83DD-285B-DA4914F41AFA</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EADC574-AD90-90D7-7F43-622528FEA7A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DEC2435A-065B-58BF-CA09-E422A5EE6764" name="FK_ARV_TPM">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<generatorID>88C93F9C-838D-4045-C38A-DD93BA2491BC</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9409B19D-9CC8-86DD-8725-0814F714C8C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="50B2F9CE-9353-AEC3-4C4C-F42F5754F4A0" name="FK_ARV_PAS">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<generatorID>A1A1F659-9376-5BE1-FF5A-F7F3009A6743</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33B8AB91-9F71-7F35-79EB-7B8D094100B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

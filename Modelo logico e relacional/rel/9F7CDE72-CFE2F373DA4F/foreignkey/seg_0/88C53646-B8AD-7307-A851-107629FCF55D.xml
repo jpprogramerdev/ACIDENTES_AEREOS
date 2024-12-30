@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="88C53646-B8AD-7307-A851-107629FCF55D" containerWithKeyObject="0D2851D2-8863-830C-89C9-FCB42A104EDB" localFKIndex="1E4FBCAA-36BA-864C-E40F-CF863E1E1FA0" name="FK_MDA_TPI">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<generatorID>8F32D19C-466A-E9E7-3B10-9BF8F3F6B595</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<referredTableLongName>TIPOS_ICAO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6AA7C8F8-5982-C2E1-2653-B1BCF5EE3FA6</referredTableID>
+<keyObject>FDEB3AF9-F4F9-20EF-3D29-A917D8307FDE</keyObject>
+<referredKeyID>FDEB3AF9-F4F9-20EF-3D29-A917D8307FDE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TPI_Id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

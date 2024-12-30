@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A06CC9A2-E077-BDEC-6848-C72CD80C8D2D" containerWithKeyObject="6043672F-333B-EA2A-C6FD-A44B48ED83E2" localFKIndex="BEB4762D-C859-28A9-B36D-2A9244A95B5D" name="FK_OAC_MUC">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<generatorID>FE53A1E5-4FA7-7174-F0D9-DF6890CCEFA9</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<referredTableLongName>MUNICIPIOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F3468B26-4B51-01C4-60A8-A9C12211FC28</referredTableID>
+<keyObject>991A140F-99DB-397C-5F0B-7667DF76FA40</keyObject>
+<referredKeyID>991A140F-99DB-397C-5F0B-7667DF76FA40</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>MUC_Id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

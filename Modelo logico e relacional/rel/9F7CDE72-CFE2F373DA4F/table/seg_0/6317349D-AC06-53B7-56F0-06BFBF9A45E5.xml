@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6317349D-AC06-53B7-56F0-06BFBF9A45E5" name="AERODROMOS">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[Tabela responsavel pelo armazenamento de dados referente dos aerodromos.
+ Aeródromo é uma área delimitada, na terra ou na água, destinada ao pouso, decolagem e movimentação de aeronaves
+Trigrama = ARD]]></comment>
+<commentInRDBMS><![CDATA[Tabela responsavel pelo armazenamento de dados referente dos aerodromos.
+ Aeródromo é uma área delimitada, na terra ou na água, destinada ao pouso, decolagem e movimentação de aeronaves
+Trigrama = ARD]]></commentInRDBMS>
+<generatorID>010740CA-FAD3-B95C-A9D8-0F2FFC896C36</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ARD_Id" id="8E5692CF-CAB0-6864-D699-D332CD10F483">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[PK que identifica o registro]]></comment>
+<commentInRDBMS><![CDATA[PK que identifica o registro]]></commentInRDBMS>
+<generatorID>B2AF9D22-1768-E58F-E130-7B388B59E971</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ARD_Sigla" id="348C54B6-BBAB-3879-9F07-C611E8FCA5DA">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[Sigla do aerodromo]]></comment>
+<commentInRDBMS><![CDATA[Sigla do aerodromo]]></commentInRDBMS>
+<generatorID>0754A48E-E929-6DBF-7018-06D8DF0B4752</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5B0F8009-C94F-AD28-D638-3A6454CCDFF9" name="PK_ARD">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<generatorID>CEF0F5AE-7162-7B50-A614-C6822F8FF9AA</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E5692CF-CAB0-6864-D699-D332CD10F483"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

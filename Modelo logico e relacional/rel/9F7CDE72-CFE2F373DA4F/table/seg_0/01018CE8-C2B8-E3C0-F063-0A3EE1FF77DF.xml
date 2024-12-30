@@ -1,0 +1,197 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="01018CE8-C2B8-E3C0-F063-0A3EE1FF77DF" name="INVESTIGACOES_ACIDENTES">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[Tabela responsavel pelo armazenamento de dados referte as investigações das causas dos acidentes
+Trigrama = IVA]]></comment>
+<commentInRDBMS><![CDATA[Tabela responsavel pelo armazenamento de dados referte as investigações das causas dos acidentes
+Trigrama = IVA]]></commentInRDBMS>
+<generatorID>BCD9B87F-1258-2F21-7BB4-1298696B7531</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IVA_Id" id="4AA815FC-C202-18BA-06DD-0130281F5EDD">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[PK que identifica o registro]]></comment>
+<commentInRDBMS><![CDATA[PK que identifica o registro]]></commentInRDBMS>
+<generatorID>51B9421A-EC8E-F6EF-0CD3-D837AE4301FA</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IVA_Status" id="4FE69A41-328A-930D-8178-5FE31E5A2515">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[Status da investigação]]></comment>
+<commentInRDBMS><![CDATA[Status da investigação]]></commentInRDBMS>
+<generatorID>653187AB-BF31-52C2-0363-AB18B4750FE0</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OCORRENCIAS_AERONAVES_OAC_Id" id="44B9942F-8A63-24A6-CEBC-9D325EA74661">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[Fk que faz referencia a ocorrencia]]></comment>
+<commentInRDBMS><![CDATA[Fk que faz referencia a ocorrencia]]></commentInRDBMS>
+<generatorID>3BD13833-4E03-68FD-29D1-598CFAFAB420</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="633ACAF1-ECA6-D29D-0A41-D29B8C143AB1" referredColumn="76F207D7-6F1F-3282-A7EB-0C35354EA829"/>
+</associations>
+</Column>
+<Column name="TIPOS_FALHAS_TPF_Id" id="EF52733C-77E6-3E4F-67C4-B165179AC166">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[Fk que faz referencia a tipos falhas]]></comment>
+<commentInRDBMS><![CDATA[Fk que faz referencia a tipos falhas]]></commentInRDBMS>
+<generatorID>A2712EBA-97B0-5B19-74BA-99E8EFBE57B8</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AFEB62E5-9702-DE27-3C33-9DAF4FF9322C" referredColumn="67EDF642-1AB2-528A-E797-9E27613EB4E9"/>
+</associations>
+</Column>
+<Column name="IVA_AAS_Id" id="47B0B056-B587-14B7-7487-5A9BEDAB62F7">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[Fk que faz referencia a aspectos acidentes]]></comment>
+<commentInRDBMS><![CDATA[Fk que faz referencia a aspectos acidentes]]></commentInRDBMS>
+<generatorID>7EC98C02-9955-2017-A86F-05B3261BCAF6</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="29C63475-742E-CA9C-4048-271B632FD614" referredColumn="2F24137B-91D9-2C8F-ABB9-49FC054482BB"/>
+</associations>
+</Column>
+<Column name="IVA_CDA_Id" id="2D80CCBC-5345-7403-DCC3-FA40E9E89BAD">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[Fk que faz referencia a condicionantes acidentes]]></comment>
+<commentInRDBMS><![CDATA[Fk que faz referencia a condicionantes acidentes]]></commentInRDBMS>
+<generatorID>021DB988-0B79-486B-2A5B-D742FEECFE71</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C00BCD9B-9CE5-3555-4173-E67A0F441CEC" referredColumn="BF04F459-D511-83C8-D27C-E5C18A252FDA"/>
+</associations>
+</Column>
+<Column name="IVA_FAC_Id" id="A17DA7D5-8DAC-2C4D-AEAF-E1AA0E8AFAED">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-28 12:03:29 UTC</createdTime>
+<comment><![CDATA[Fk que faz referencia a fatores  acidentes]]></comment>
+<commentInRDBMS><![CDATA[Fk que faz referencia a fatores  acidentes]]></commentInRDBMS>
+<generatorID>292B0D8B-718D-2AAC-58EA-2B1D73A28729</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="201BAB12-6CAF-B798-82E2-1F8520AF5569" referredColumn="E5106846-0CC7-E1F3-256A-0F3EB1566979"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C8B33B69-5974-20F6-C780-5A125C57CD8C" name="PK_IVA">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<generatorID>6F38B884-30E5-61ED-50C0-06C8C4727B15</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4AA815FC-C202-18BA-06DD-0130281F5EDD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="810D7407-EB11-1730-4D35-BBFF39B617A5" name="FK_IVA_OAC">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<generatorID>E6E8A6C6-6349-A0E3-162C-CD10703CE1AB</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44B9942F-8A63-24A6-CEBC-9D325EA74661"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="05CD1A6E-2CCA-A3A0-7266-BCDE7221F29D" name="FK_IVA_TPF">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<generatorID>B8B53652-615D-A157-BA4A-88FFC9D2A27E</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF52733C-77E6-3E4F-67C4-B165179AC166"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E81D65E1-1006-D588-7025-67A6BD179406" name="FK_IVA_ASS">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<generatorID>1288FA47-F1DE-CA98-EDB6-5EC60175C361</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47B0B056-B587-14B7-7487-5A9BEDAB62F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="786CAB62-9C0E-30E6-BE45-2E1224C02AC2" name="FK_IVA_CDA">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<generatorID>7C6D1402-EC44-148D-A65C-9F40EBC6C12F</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D80CCBC-5345-7403-DCC3-FA40E9E89BAD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="10139D6F-C56E-B04A-B838-031C1CF79BB7" name="FK_IVA_FAC">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-28 12:03:29 UTC</createdTime>
+<generatorID>BD39C26B-4983-54CF-6808-7D7CB2CC4E55</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A17DA7D5-8DAC-2C4D-AEAF-E1AA0E8AFAED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

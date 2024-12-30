@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="597838D2-AFE3-D6C2-4B15-C7DBA525115E" name="ESTADOS">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 11:32:42 UTC</createdTime>
+<comment><![CDATA[Tabela responsavel pelo armazenamento de dados refernte a estados
+Trigrama = EST]]></comment>
+<commentInRDBMS><![CDATA[Tabela responsavel pelo armazenamento de dados refernte a estados
+Trigrama = EST]]></commentInRDBMS>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="EST Id" id="03672118-A6CB-A3D3-1B71-8A1AD4D18B81">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 11:32:50 UTC</createdTime>
+<comment><![CDATA[Chave primaria que identifica o registro do estado]]></comment>
+<commentInRDBMS><![CDATA[Chave primaria que identifica o registro do estado]]></commentInRDBMS>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EST Nome" id="BD2E3DAD-E0D8-ACE8-8A6C-928430262DDB">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 11:34:03 UTC</createdTime>
+<comment><![CDATA[Atributo que identifica o nome do estado]]></comment>
+<commentInRDBMS><![CDATA[Atributo que identifica o nome do estado]]></commentInRDBMS>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EST Uf" id="8F71C7E0-D9CA-FAE8-9C15-9342F9DF9E25">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 11:39:10 UTC</createdTime>
+<comment><![CDATA[Sigla correspondente ao estado]]></comment>
+<commentInRDBMS><![CDATA[Sigla correspondente ao estado]]></commentInRDBMS>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PAS Id" id="100E4A77-5EC1-2D25-D302-2D78A0000A63">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 11:37:46 UTC</createdTime>
+<comment><![CDATA[Chave primaria que identifica o registro do pais]]></comment>
+<generatorID>ED5CEEF5-972F-8987-34B3-53EE7C6FFC48</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<referedAttribute>1B9BEF45-1B8F-E018-AED5-DD575310947A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BD313541-FCC2-28FE-1DF3-787BA5E939F4" name="PK_EST">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 11:32:58 UTC</createdTime>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>03672118-A6CB-A3D3-1B71-8A1AD4D18B81</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F3468B26-4B51-01C4-60A8-A9C12211FC28" name="MUNICIPIOS">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[Tabela responsavel pelo armazenamento de dados refernte ao municipio
+Trigrama = MUC]]></comment>
+<commentInRDBMS><![CDATA[Tabela responsavel pelo armazenamento de dados refernte ao municipio
+Trigrama = MUC]]></commentInRDBMS>
+<generatorID>B128083B-97FA-C96E-3127-D4E070770FED</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MUC_Id" id="C6413243-23BD-FE8A-4F76-2192A63D4367">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[Chave primaria responsavel por identificação do registro]]></comment>
+<commentInRDBMS><![CDATA[Chave primaria responsavel por identificação do registro]]></commentInRDBMS>
+<generatorID>67935AFB-7AF6-BF27-0466-CC63F2EC6499</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MUC_Nome" id="DE748029-565E-6633-A4A7-EF26C40CFF4F">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[Nome do municipio]]></comment>
+<commentInRDBMS><![CDATA[Nome do municipio]]></commentInRDBMS>
+<generatorID>9685A837-CB5A-A379-F71C-40644C747F7C</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MUC_EST_Id" id="3BA116DE-6957-875A-74D5-205CF091FF0A">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[Chave estrageira no qual faz referencia a PK de estados]]></comment>
+<commentInRDBMS><![CDATA[Chave estrageira no qual faz referencia a PK de estados]]></commentInRDBMS>
+<generatorID>CDE1E581-67C0-94EC-A4D6-B546B098BB69</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="73C62CAE-BD2F-BC5D-E2DA-7E144D018686" referredColumn="7DC3CB38-1FEF-CE41-9C62-1EF1B1572D8B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="991A140F-99DB-397C-5F0B-7667DF76FA40" name="PK_MUC">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<generatorID>FD916059-75D0-A915-3200-5A96023FB3B4</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6413243-23BD-FE8A-4F76-2192A63D4367"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C919A21F-0E0F-7C86-F22F-222A66D53D78" name="FK_MUC_EST">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<generatorID>262DB873-24BB-30CB-CE7C-08175CB720E5</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3BA116DE-6957-875A-74D5-205CF091FF0A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

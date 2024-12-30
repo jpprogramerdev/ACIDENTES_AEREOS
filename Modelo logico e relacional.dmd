@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Modelo logico e relacional" id="932D23C0-D2C1-FEBF-1772-63171F0EC896" version="3.5">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 11:26:47 UTC</createdTime>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>932D23C0-D2C1-FEBF-1772-63171F0EC896</designId>
+</OSDM_Design>

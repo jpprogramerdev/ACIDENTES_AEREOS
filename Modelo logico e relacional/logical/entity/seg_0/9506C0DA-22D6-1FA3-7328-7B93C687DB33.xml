@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9506C0DA-22D6-1FA3-7328-7B93C687DB33" name="TIPOS ICAO">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 12:45:03 UTC</createdTime>
+<comment><![CDATA[Tabela responsavel pelo armazenamento de dados referente ao ICAO do modelo.
+ICAO significa International Civil Aviation Organization (Organização da Aviação Civil Internacional ) que identifica o modelo ou a categoria específica de uma aeronave sendo uma sigla de até 4 caracteres.
+Trigrama = TPI]]></comment>
+<commentInRDBMS><![CDATA[Tabela responsavel pelo armazenamento de dados referente ao ICAO do modelo.
+ICAO significa International Civil Aviation Organization (Organização da Aviação Civil Internacional ) que identifica o modelo ou a categoria específica de uma aeronave sendo uma sigla de até 4 caracteres.
+Trigrama = TPI]]></commentInRDBMS>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="TPI Id" id="0E742FE0-3A14-C931-4E7C-B5A451EA2753">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 12:46:35 UTC</createdTime>
+<comment><![CDATA[PK que identifica o registro do ICAO]]></comment>
+<commentInRDBMS><![CDATA[PK que identifica o registro do ICAO]]></commentInRDBMS>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TPI ICAO" id="E849FDB2-BBA0-B850-F6E7-284EA7703669">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 12:47:20 UTC</createdTime>
+<comment><![CDATA[Identifica o ICAO]]></comment>
+<commentInRDBMS><![CDATA[Identifica o ICAO]]></commentInRDBMS>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7D5C428D-072C-C994-1C76-341169412699" name="PK_TPI">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 12:46:50 UTC</createdTime>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0E742FE0-3A14-C931-4E7C-B5A451EA2753</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK MUC EST" directorySegmentName="seg_0" id="262DB873-24BB-30CB-CE7C-08175CB720E5">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 11:47:09 UTC</createdTime>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<sourcePk>BD313541-FCC2-28FE-1DF3-787BA5E939F4</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>597838D2-AFE3-D6C2-4B15-C7DBA525115E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B128083B-97FA-C96E-3127-D4E070770FED</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

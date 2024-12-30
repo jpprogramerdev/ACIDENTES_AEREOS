@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="049F8CCB-2F6B-A029-F8FD-4C5C840E4295" name="CATEGORIAS OCORRENCIAS">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 14:42:56 UTC</createdTime>
+<comment><![CDATA[Tabela responsavel pelo armazenamento de dados referente a categoria do acidente
+Trigrama = CAO]]></comment>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CAO Id" id="B5DF15B3-4962-CDE6-FB43-CE9FBB508E2D">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 14:43:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[PK que identifica o registro da categoria da ocorrencia]]></commentInRDBMS>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CAO Cateogira" id="533EB7ED-F05A-A1F0-A959-172317976C0F">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 14:43:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[Categora do acidente]]></commentInRDBMS>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CAO Sigla" id="1A332472-1EE3-0979-8DF9-424461ED7E48">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 14:44:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[Taxonomia/sigla para a identificação do tipo de acidente]]></commentInRDBMS>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5CE44043-4CB5-69CA-803E-2FA9A0274D3D" name="PK_CAO">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 14:43:32 UTC</createdTime>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B5DF15B3-4962-CDE6-FB43-CE9FBB508E2D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

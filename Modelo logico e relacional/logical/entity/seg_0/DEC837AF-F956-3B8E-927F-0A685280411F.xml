@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DEC837AF-F956-3B8E-927F-0A685280411F" name="CLASSIFICACOES ACIDENTES">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 18:47:12 UTC</createdTime>
+<comment><![CDATA[Tabela responsavel pelo armazenamento de dados referente a classificação do acidente
+Trigrama = CLA]]></comment>
+<commentInRDBMS><![CDATA[Tabela responsavel pelo armazenamento de dados referente a classificação do acidente
+Trigrama = CLA]]></commentInRDBMS>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CLA Id" id="3C1CDC0B-4E24-D0F6-9A2E-300C46A42AA4">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 18:48:14 UTC</createdTime>
+<comment><![CDATA[PK que identifica o registro das classificações dos acidentes]]></comment>
+<commentInRDBMS><![CDATA[PK que identifica o registro das classificações dos acidentes]]></commentInRDBMS>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CLA Classificacao" id="4B17B850-771E-F4F1-D91C-411064C31FCF">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 18:49:39 UTC</createdTime>
+<comment><![CDATA[Classificado do acidente]]></comment>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3A622FBD-F648-C27F-81DD-B9F3E565C735" name="PK_CLA">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 18:48:33 UTC</createdTime>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3C1CDC0B-4E24-D0F6-9A2E-300C46A42AA4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

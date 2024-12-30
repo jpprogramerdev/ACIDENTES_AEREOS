@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FA8C5EDD-923E-CCC8-E33C-233915AB7AA1" name="TIPOS_SEGMENTOS">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[Tabela responsavel pelo armazenamento de dados referente ao segmento/operação que a aeronave foi reigstrada a fazer
+Trigrama = TPS]]></comment>
+<commentInRDBMS><![CDATA[Tabela responsavel pelo armazenamento de dados referente ao segmento/operação que a aeronave foi reigstrada a fazer
+Trigrama = TPS]]></commentInRDBMS>
+<generatorID>0BA2EF4A-8627-3E6F-DD08-98E820538ED0</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TPS_Id" id="E8BBD92E-D946-7A55-1F57-6659229A4FD4">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[PK que identifica o registro do tipo de operação do avião]]></comment>
+<commentInRDBMS><![CDATA[PK que identifica o registro do tipo de operação do avião]]></commentInRDBMS>
+<generatorID>82C5D442-CC95-8918-5556-A6F24411166D</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TPS_Operacao" id="5E5046E4-C1C7-6D2B-3EA4-2DCC739E5B04">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[Tipo de operação/segmento/ação que a aeronave foi registrada a fazer]]></comment>
+<commentInRDBMS><![CDATA[Tipo de operação/segmento/ação que a aeronave foi registrada a fazer]]></commentInRDBMS>
+<generatorID>C8884CEE-9410-AAEF-C580-E96737FDD40A</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5AC8C7EA-0631-D320-E572-18E44981D4B2" name="PK_TPS">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<generatorID>E19230DE-0AE7-1453-D11A-017198957ACB</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8BBD92E-D946-7A55-1F57-6659229A4FD4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

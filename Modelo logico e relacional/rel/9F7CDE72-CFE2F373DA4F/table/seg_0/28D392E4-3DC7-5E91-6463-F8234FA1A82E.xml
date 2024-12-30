@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="28D392E4-3DC7-5E91-6463-F8234FA1A82E" name="ASPECTOS_ACIDENTES">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[Tabela responsavel pelo armazenamento de dados referente aos aspectos de um acidente
+Trigrama = AAS]]></comment>
+<commentInRDBMS><![CDATA[Tabela responsavel pelo armazenamento de dados referente aos aspectos de um acidente
+Trigrama = AAS]]></commentInRDBMS>
+<generatorID>2D8E660D-CA82-85C5-011F-DD442800CB74</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AAS_Id" id="2F24137B-91D9-2C8F-ABB9-49FC054482BB">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[PK que identifica o registro de aspectos]]></comment>
+<commentInRDBMS><![CDATA[PK que identifica o registro de aspectos]]></commentInRDBMS>
+<generatorID>BE1C4357-E7B6-C72B-8119-20D68EB2650F</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AAS_Aspecto" id="5A2F2A4D-2622-BF32-4E5F-C47BB07FB4B8">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[Aspecto que ocasionaram o fator do acidente]]></comment>
+<commentInRDBMS><![CDATA[Aspecto que ocasionaram o fator do acidente]]></commentInRDBMS>
+<generatorID>B39AF646-D002-4A5A-209A-1679D2DB75F9</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120</dataTypeSize>
+<ownDataTypeParameters>120,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="85A97024-D547-FF28-E2BB-65B7E7C04140" name="PK_AAS">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<generatorID>DCAA1FD1-190A-BF72-F438-3A3F66FA34C3</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F24137B-91D9-2C8F-ABB9-49FC054482BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

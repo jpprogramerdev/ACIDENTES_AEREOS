@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BD0C0EF2-D202-2AB6-272D-174056CBD62C" name="TIPOS_MOTORES">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[Tabela responsavel pelo armazenamento de dados referente ao tipo de motor da aeronave
+Trigrama = TPM]]></comment>
+<commentInRDBMS><![CDATA[Tabela responsavel pelo armazenamento de dados referente ao tipo de motor da aeronave
+Trigrama = TPM]]></commentInRDBMS>
+<generatorID>0DAB1D3F-EAB8-48AF-5B9C-6B0CB730AFDE</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TPM_Id" id="391AC4E8-C645-E0BE-F3F6-30EA8DF0FE46">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[PK que identifica o registro do tipo do motor]]></comment>
+<commentInRDBMS><![CDATA[PK que identifica o registro do tipo do motor]]></commentInRDBMS>
+<generatorID>9A458188-0381-4F58-928C-2A6488355F96</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TPM_Tipo" id="6DC8207F-4463-EB1F-5707-CF185B0F5224">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[Identifica qual o tipo do motor]]></comment>
+<commentInRDBMS><![CDATA[Identifica qual o tipo do motor]]></commentInRDBMS>
+<generatorID>15FC6191-6342-5826-8B83-2E125D22E4A5</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8339FB4D-0F02-2A3E-C59F-A569FC516273" name="PK_TPM">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<generatorID>88D1AC94-0ED9-71F9-024C-BB873D3A06C4</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="391AC4E8-C645-E0BE-F3F6-30EA8DF0FE46"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

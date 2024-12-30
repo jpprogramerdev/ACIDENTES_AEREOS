@@ -1,0 +1,182 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0D2851D2-8863-830C-89C9-FCB42A104EDB" name="MODELOS_AERONAVES">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[Tabela responsavel pelo armazenamento de dados referente o modelo  da aeronave de acordo com a fabricante
+Trigrama = MDA]]></comment>
+<commentInRDBMS><![CDATA[Tabela responsavel pelo armazenamento de dados referente o modelo  da aeronave de acordo com a fabricante
+Trigrama = MDA]]></commentInRDBMS>
+<generatorID>8253BBA4-5983-912A-4ED3-DB460EE200CF</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MDA_Id" id="7D58A81C-8257-B443-2D2E-B2080FFC6D34">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[PK que identifica o modelo da aeronave]]></comment>
+<commentInRDBMS><![CDATA[PK que identifica o modelo da aeronave]]></commentInRDBMS>
+<generatorID>8E01506E-F185-F689-C0AC-D7FB7DCD39E5</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MDA_Modelo" id="06B02BB7-9DE8-C20E-3773-CC730FA8118D">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[Identifica o modelo da aeronave]]></comment>
+<commentInRDBMS><![CDATA[Identifica o modelo da aeronave]]></commentInRDBMS>
+<generatorID>39F362C8-D32B-8C22-0939-4776AB297F7F</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MDA_Assentos" id="66A10A27-6590-625F-98FC-54F501DC88A6">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[Quantidade de assentos]]></comment>
+<commentInRDBMS><![CDATA[Quantidade de assentos]]></commentInRDBMS>
+<generatorID>D8683C0D-E86D-8C96-0CC8-AD152A96D548</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MDA_FBA_Id" id="521E70C2-AEAB-2D31-A0DD-7EE20C85FB47">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[FK que faz referencia ao fabricante]]></comment>
+<commentInRDBMS><![CDATA[FK que faz referencia ao fabricante]]></commentInRDBMS>
+<generatorID>5804788D-028F-3220-95BC-FAB1FD2A6034</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4674E6CC-AE34-7C97-9671-CC6B9B808936" referredColumn="490D0A5E-AF9F-A7E4-05F6-A01ECCEB3828"/>
+</associations>
+</Column>
+<Column name="MDA_TPI_Id" id="45A8D6FF-3FAA-7E0A-9ADA-ADE196D9DB21">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[FK que faz rerencia a tabela ICAO]]></comment>
+<commentInRDBMS><![CDATA[FK que faz rerencia a tabela ICAO]]></commentInRDBMS>
+<generatorID>26F42EB0-14AF-7E00-B62E-9036B179B9A2</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="88C53646-B8AD-7307-A851-107629FCF55D" referredColumn="CDC08F14-B836-0E32-6C91-944B08CCC27C"/>
+</associations>
+</Column>
+<Column name="MDA_PMD_Id" id="7FC97022-8804-994C-FF49-9C269638527E">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[FK  que faz referencia  peso maximo de decolagem]]></comment>
+<commentInRDBMS><![CDATA[FK  que faz referencia  peso maximo de decolagem]]></commentInRDBMS>
+<generatorID>7AC699D8-4A04-D2DB-BB91-293F64FCA477</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7D63A9D5-1D25-1326-31BA-EF9334233702" referredColumn="13A82FBB-10F8-4516-E688-DCB4ADA81915"/>
+</associations>
+</Column>
+<Column name="MDA_TPA_Id" id="CF937CF3-D3A2-97B4-152B-F4AD9DAFEDEB">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[FK que faz referencia ao tipo de aeronave]]></comment>
+<commentInRDBMS><![CDATA[FK que faz referencia ao tipo de aeronave]]></commentInRDBMS>
+<generatorID>67315DDF-BACC-6283-F3F3-AC6275C6DBB9</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0E1EDA7C-E8BA-63E0-F4C6-D5B4DAD96607" referredColumn="C2A03BF2-AF37-B674-A770-867143FB00BB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9503E61B-38EF-68AC-E6B8-DBB10CC57251" name="PK_MDA">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<generatorID>B622A845-0731-3790-76C9-034CEE0BA525</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D58A81C-8257-B443-2D2E-B2080FFC6D34"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A2025E6C-0A87-A725-C544-23CFD3083CC0" name="FK_MDA_FBA">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<generatorID>DDAC6AF5-3336-ADFD-01FB-9195CF5E5F08</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="521E70C2-AEAB-2D31-A0DD-7EE20C85FB47"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FD9629E6-6B6F-9DFB-3C30-339C513E1E5B" name="FK_MDA_PMD">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<generatorID>42C48ED5-E0DF-CB01-09A9-11DD948F2A40</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FC97022-8804-994C-FF49-9C269638527E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1E4FBCAA-36BA-864C-E40F-CF863E1E1FA0" name="FK_MDA_TPI">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<generatorID>8F32D19C-466A-E9E7-3B10-9BF8F3F6B595</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="45A8D6FF-3FAA-7E0A-9ADA-ADE196D9DB21"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BBA973E3-A0F1-9AB9-10D2-C583BF700729" name="FK_MDA_TPA">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<generatorID>F1779C9E-4646-6BE6-B57E-6D88D7639A06</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF937CF3-D3A2-97B4-152B-F4AD9DAFEDEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

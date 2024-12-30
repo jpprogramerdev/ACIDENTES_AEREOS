@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2F24A6F1-B710-FD34-347E-495D2F4C76A5" containerWithKeyObject="6043672F-333B-EA2A-C6FD-A44B48ED83E2" localFKIndex="96B98E03-3E40-659A-8826-A372E35DBCA0" name="FK_OAC_TPS">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<generatorID>7AA2D017-47BA-896C-C484-A6B9EE763F18</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<referredTableLongName>TIPOS_SEGMENTOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FA8C5EDD-923E-CCC8-E33C-233915AB7AA1</referredTableID>
+<keyObject>5AC8C7EA-0631-D320-E572-18E44981D4B2</keyObject>
+<referredKeyID>5AC8C7EA-0631-D320-E572-18E44981D4B2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TPS_Id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

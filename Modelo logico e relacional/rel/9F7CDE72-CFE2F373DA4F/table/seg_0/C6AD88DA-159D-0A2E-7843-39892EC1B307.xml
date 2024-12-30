@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C6AD88DA-159D-0A2E-7843-39892EC1B307" name="FABRICANTES_AERONAVES">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[Tabela responsavel pelo armazenamento de dados refernte da fabricante da aeronave
+Trigrama = FBA]]></comment>
+<commentInRDBMS><![CDATA[Tabela responsavel pelo armazenamento de dados refernte da fabricante da aeronave
+Trigrama = FBA]]></commentInRDBMS>
+<generatorID>FBC17A51-183F-CD8C-D3C2-840273FCE48B</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FBA_Id" id="490D0A5E-AF9F-A7E4-05F6-A01ECCEB3828">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[Chave primaria que identifica o registro do fabricante]]></comment>
+<commentInRDBMS><![CDATA[Chave primaria que identifica o registro do fabricante]]></commentInRDBMS>
+<generatorID>EF88AF23-BB0F-2B3E-4543-2C4045EBC2D7</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FBA_Nome" id="C24DE3F9-1ACB-37D8-B17E-3BC1E86516DC">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[Nome da fabricante da aeronave]]></comment>
+<commentInRDBMS><![CDATA[Nome da fabricante da aeronave]]></commentInRDBMS>
+<generatorID>56334310-A2D7-744D-FDFB-6EA63C1592F0</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3A7D60A6-A4F2-4F28-9C5E-4B8338667252" name="PK_FBA">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<generatorID>C517214C-6CA1-C569-6FA9-67D2C40C49DE</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="490D0A5E-AF9F-A7E4-05F6-A01ECCEB3828"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

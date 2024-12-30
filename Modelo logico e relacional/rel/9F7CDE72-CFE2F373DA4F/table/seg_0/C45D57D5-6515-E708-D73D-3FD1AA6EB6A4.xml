@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C45D57D5-6515-E708-D73D-3FD1AA6EB6A4" name="PAISES">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[Tabela que armazena dados de paises sendo somente o nome do pais
+Trigrama = PAS]]></comment>
+<commentInRDBMS><![CDATA[Tabela que armazena dados de paises sendo somente o nome do pais
+Trigrama = PAS]]></commentInRDBMS>
+<generatorID>4350C43F-C638-B9CD-8BF3-A8E917B39843</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PAS_Id" id="204CAC6B-6E36-B011-1A20-C3002E570529">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[Chave primaria que identifica o registro do pais]]></comment>
+<commentInRDBMS><![CDATA[Chave primaria que identifica o registro do pais]]></commentInRDBMS>
+<generatorID>1B9BEF45-1B8F-E018-AED5-DD575310947A</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAS_Nome" id="69DFA4A7-5E0D-7F76-1776-4C94D24FE46A">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<comment><![CDATA[Atributo que diz o nome do pais]]></comment>
+<commentInRDBMS><![CDATA[Atributo que diz o nome do pais]]></commentInRDBMS>
+<generatorID>C13F9476-ECCE-B78D-8638-B99A52F10577</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7FD2D2E4-041C-0818-31FA-D499CD2F4D24" name="PK_PAS">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<generatorID>0BD808FE-72DA-DF5E-22EB-830BA508A40B</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="204CAC6B-6E36-B011-1A20-C3002E570529"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

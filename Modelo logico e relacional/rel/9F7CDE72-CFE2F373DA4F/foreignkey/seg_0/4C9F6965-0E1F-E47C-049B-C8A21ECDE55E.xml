@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4C9F6965-0E1F-E47C-049B-C8A21ECDE55E" containerWithKeyObject="44D9DA5D-764A-1544-74B9-4C7D1E7C8275" localFKIndex="3CCD96D1-DE5C-11DE-3D9C-7731E438D52A" name="FK_ARV_QTM">
+<createdBy>jp120</createdBy>
+<createdTime>2024-12-21 23:16:40 UTC</createdTime>
+<generatorID>54C0091F-404A-83DD-285B-DA4914F41AFA</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<referredTableLongName>QUANTIDADE_MOTORES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5F05C8BE-BCE9-2348-91ED-E4DBC7373485</referredTableID>
+<keyObject>B579D572-7397-F04D-7E5C-DA34DC2915E8</keyObject>
+<referredKeyID>B579D572-7397-F04D-7E5C-DA34DC2915E8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>QTM_Id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
