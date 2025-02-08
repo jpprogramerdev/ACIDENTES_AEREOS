@@ -48,7 +48,7 @@ Trigrama = IVA]]></commentInRDBMS>
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="OAC Id" id="3BD13833-4E03-68FD-29D1-598CFAFAB420">
+<Attribute name="OCORRENCIAS AERONAVES OAC Id" id="3BD13833-4E03-68FD-29D1-598CFAFAB420">
 <createdBy>jp120</createdBy>
 <createdTime>2024-12-21 19:23:05 UTC</createdTime>
 <comment><![CDATA[Fk que faz referencia a ocorrencia]]></comment>
@@ -64,7 +64,7 @@ Trigrama = IVA]]></commentInRDBMS>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="TPF Id" id="A2712EBA-97B0-5B19-74BA-99E8EFBE57B8">
+<Attribute name="TIPOS FALHAS TPF Id" id="A2712EBA-97B0-5B19-74BA-99E8EFBE57B8">
 <createdBy>jp120</createdBy>
 <createdTime>2024-12-21 19:23:56 UTC</createdTime>
 <comment><![CDATA[Fk que faz referencia a tipos falhas]]></comment>
@@ -123,21 +123,6 @@ Trigrama = IVA]]></commentInRDBMS>
 <item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
 </engineerTo>
 <referedAttribute>8C020BCB-B1F8-301A-BF2D-75304BFEC523</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="RLI Id" id="DBDE46F8-CFC5-07C9-583F-B04040A82A96">
-<createdBy>jp120</createdBy>
-<createdTime>2024-12-30 00:15:52 UTC</createdTime>
-<comment><![CDATA[PK que identifica o registro]]></comment>
-<generatorID>E70B4B69-FCBC-E2F7-84E2-D8E588755E18</generatorID>
-<ownerDesignName>Modelo logico e relacional</ownerDesignName>
-<engineerTo>
-<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
-</engineerTo>
-<referedAttribute>672CA397-5A8A-14DF-959D-395A5C90AF03</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>

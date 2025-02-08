@@ -63,7 +63,7 @@ Trigrama = ARV]]></commentInRDBMS>
 <dataTypeSize>4</dataTypeSize>
 <ownDataTypeParameters>4,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="MDA Id" id="0AC3895F-3464-522D-007E-AAFD3423C01E">
+<Attribute name="ARV MDA Id" id="0AC3895F-3464-522D-007E-AAFD3423C01E">
 <createdBy>jp120</createdBy>
 <createdTime>2024-12-21 14:29:56 UTC</createdTime>
 <comment><![CDATA[FK que faz rerencia ao modelo da aeronave]]></comment>
@@ -79,7 +79,7 @@ Trigrama = ARV]]></commentInRDBMS>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="QTM Id" id="E72A60D8-8687-657E-85CD-C0BDDC6D83B7">
+<Attribute name="ARV QTM Id" id="E72A60D8-8687-657E-85CD-C0BDDC6D83B7">
 <createdBy>jp120</createdBy>
 <createdTime>2024-12-21 14:32:31 UTC</createdTime>
 <comment><![CDATA[FK que faz referencia a quantidade de motores]]></comment>
@@ -95,7 +95,7 @@ Trigrama = ARV]]></commentInRDBMS>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="TPM Id" id="C445BF76-BB4A-0BB2-8EBE-690616C23B1B">
+<Attribute name="ARV TPM Id" id="C445BF76-BB4A-0BB2-8EBE-690616C23B1B">
 <createdBy>jp120</createdBy>
 <createdTime>2024-12-21 14:34:01 UTC</createdTime>
 <comment><![CDATA[Fk que faz referencia ao tipo de motor]]></comment>
@@ -111,7 +111,7 @@ Trigrama = ARV]]></commentInRDBMS>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PAS Id" id="BA013C5F-C02E-8319-1D76-E3E9FBBBD6E5">
+<Attribute name="ARV PAS Id" id="BA013C5F-C02E-8319-1D76-E3E9FBBBD6E5">
 <createdBy>jp120</createdBy>
 <createdTime>2024-12-21 14:37:50 UTC</createdTime>
 <comment><![CDATA[FK que faz referecnai ao pais de fabricação]]></comment>

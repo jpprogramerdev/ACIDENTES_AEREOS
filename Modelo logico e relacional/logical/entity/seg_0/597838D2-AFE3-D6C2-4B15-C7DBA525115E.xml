@@ -63,7 +63,7 @@ Trigrama = EST]]></commentInRDBMS>
 <dataTypeSize>2</dataTypeSize>
 <ownDataTypeParameters>2,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PAS Id" id="100E4A77-5EC1-2D25-D302-2D78A0000A63">
+<Attribute name="EST PAS ID" id="100E4A77-5EC1-2D25-D302-2D78A0000A63">
 <createdBy>jp120</createdBy>
 <createdTime>2024-12-21 11:37:46 UTC</createdTime>
 <comment><![CDATA[Chave primaria que identifica o registro do pais]]></comment>

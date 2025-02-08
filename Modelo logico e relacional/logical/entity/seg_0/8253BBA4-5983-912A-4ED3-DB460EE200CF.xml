@@ -78,7 +78,7 @@ Trigrama = MDA]]></commentInRDBMS>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="TPI Id" id="26F42EB0-14AF-7E00-B62E-9036B179B9A2">
+<Attribute name="MDA TPI Id" id="26F42EB0-14AF-7E00-B62E-9036B179B9A2">
 <createdBy>jp120</createdBy>
 <createdTime>2024-12-21 12:49:43 UTC</createdTime>
 <comment><![CDATA[FK que faz rerencia a tabela ICAO]]></comment>
@@ -94,7 +94,7 @@ Trigrama = MDA]]></commentInRDBMS>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="PMD Id" id="7AC699D8-4A04-D2DB-BB91-293F64FCA477">
+<Attribute name="MDA PMD Id" id="7AC699D8-4A04-D2DB-BB91-293F64FCA477">
 <createdBy>jp120</createdBy>
 <createdTime>2024-12-21 13:10:39 UTC</createdTime>
 <comment><![CDATA[FK  que faz referencia  peso maximo de decolagem]]></comment>
@@ -110,7 +110,7 @@ Trigrama = MDA]]></commentInRDBMS>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="TPA Id" id="67315DDF-BACC-6283-F3F3-AC6275C6DBB9">
+<Attribute name="MDA TPA Id" id="67315DDF-BACC-6283-F3F3-AC6275C6DBB9">
 <createdBy>jp120</createdBy>
 <createdTime>2024-12-21 14:36:25 UTC</createdTime>
 <comment><![CDATA[FK que faz referencia ao tipo de aeronave]]></comment>

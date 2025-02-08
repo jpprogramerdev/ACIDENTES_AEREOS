@@ -39,7 +39,7 @@ Trigrama = IVA]]></commentInRDBMS>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="OCORRENCIAS_AERONAVES_OAC_Id" id="44B9942F-8A63-24A6-CEBC-9D325EA74661">
+<Column name="IVA_OAC_Id" id="44B9942F-8A63-24A6-CEBC-9D325EA74661">
 <createdBy>jp120</createdBy>
 <createdTime>2024-12-21 23:16:40 UTC</createdTime>
 <comment><![CDATA[Fk que faz referencia a ocorrencia]]></comment>
@@ -56,7 +56,7 @@ Trigrama = IVA]]></commentInRDBMS>
 <colAssociation fkAssociation="633ACAF1-ECA6-D29D-0A41-D29B8C143AB1" referredColumn="76F207D7-6F1F-3282-A7EB-0C35354EA829"/>
 </associations>
 </Column>
-<Column name="TIPOS_FALHAS_TPF_Id" id="EF52733C-77E6-3E4F-67C4-B165179AC166">
+<Column name="IVA_TPF_Id" id="EF52733C-77E6-3E4F-67C4-B165179AC166">
 <createdBy>jp120</createdBy>
 <createdTime>2024-12-21 23:16:40 UTC</createdTime>
 <comment><![CDATA[Fk que faz referencia a tipos falhas]]></comment>

@@ -106,6 +106,16 @@ Trigrama = OAC]]></commentInRDBMS>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="OAC_Fatalidades" id="2507B90E-3091-953E-DD28-F761EF705933">
+<createdBy>jp120</createdBy>
+<createdTime>2025-01-03 23:36:01 UTC</createdTime>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="OAC_Saida_Pista" id="24AA0BB9-7252-0CDF-3D71-94EEF3487197">
 <createdBy>jp120</createdBy>
 <createdTime>2024-12-21 23:16:40 UTC</createdTime>

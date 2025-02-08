@@ -183,7 +183,7 @@ Trigrama = OAC]]></commentInRDBMS>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="TPS Id" id="7BDB6991-6F80-1022-770A-F0D5A97729B1">
+<Attribute name="OAC TPS Id" id="7BDB6991-6F80-1022-770A-F0D5A97729B1">
 <createdBy>jp120</createdBy>
 <createdTime>2024-12-21 19:12:48 UTC</createdTime>
 <comment><![CDATA[Fk que faz referencia ao tipo de operação do voo]]></comment>
@@ -240,6 +240,31 @@ Trigrama = OAC]]></commentInRDBMS>
 <item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
 </engineerTo>
 <referedAttribute>0A368349-E430-E5B9-26E2-1891421AFB59</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OAC_Fatalidade" id="B3817623-14E9-B492-DCE0-9083DF364E6C">
+<createdBy>jp120</createdBy>
+<createdTime>2025-01-03 23:35:10 UTC</createdTime>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OAC Fatalidades" id="6885CEE2-7B1D-EB66-595A-A13C6628A928">
+<createdBy>jp120</createdBy>
+<createdTime>2025-01-03 23:36:07 UTC</createdTime>
+<generatorID>2507B90E-3091-953E-DD28-F761EF705933</generatorID>
+<ownerDesignName>Modelo logico e relacional</ownerDesignName>
+<engineerTo>
+<item key="9F7CDE72-44E1-A86A-68FF-CFE2F373DA4F" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
